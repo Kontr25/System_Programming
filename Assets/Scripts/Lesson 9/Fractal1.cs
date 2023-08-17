@@ -4,8 +4,8 @@ namespace Lesson_9
 {
     public class Fractal1 : MonoBehaviour
     {
-        [SerializeField, Range(1, 8)] private int _depth = 4;
-        [SerializeField, Range(1, 360)] private int rotationSpeed;
+        [SerializeField, Lesson_10.Range(1, 8)] private int _depth = 4;
+        [SerializeField, Lesson_10.Range(1, 360)] private int rotationSpeed;
         private const float _positionOffset = .75f;
         private const float _scaleBias = .5f;
         private void Start()

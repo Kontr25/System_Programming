@@ -48,8 +48,8 @@ namespace Lesson_9
 
         [SerializeField] private Mesh _mesh;
         [SerializeField] private Material _material;
-        [SerializeField, Range(1, 8)] private int _depth = 4;
-        [SerializeField, Range(0, 360)] private int _speedRotation = 80;
+        [SerializeField, Lesson_10.Range(1, 8)] private int _depth = 4;
+        [SerializeField, Lesson_10.Range(0, 360)] private int _speedRotation = 80;
         private const float _positionOffset = 1.5f;
         private const float _scaleBias = .5f;
         private const int _childCount = 5;

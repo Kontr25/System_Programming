@@ -7,13 +7,13 @@ namespace Mechanics
     {
 
         [SerializeField] private Transform _focus = default;
-        [SerializeField, Range(0.01f, 1.0f)] private float _distance = 5.0f;
-        [SerializeField, Range(0, 90)] private int _lookAngle;
+        [SerializeField, Lesson_10.Range(0.01f, 1.0f)] private float _distance = 5.0f;
+        [SerializeField, Lesson_10.Range(0, 90)] private int _lookAngle;
         [SerializeField, Min(.0f)] private float _focusRadius = 1.0f;
-        [SerializeField, Range(.0f, 1.0f)] private float _focusCentering = .5f;
-        [SerializeField, Range(.1f, 5.0f)] private float _sensitive = .5f;
-        [SerializeField, Range(1.0f, 360f)] private float _rotationSpeed = 90.0f;
-        [SerializeField, Range(-89.0f, 89.0f)] private float _minVerticalAngle = -30.0f, _maxVerticalAngle = 60.0f;
+        [SerializeField, Lesson_10.Range(.0f, 1.0f)] private float _focusCentering = .5f;
+        [SerializeField, Lesson_10.Range(.1f, 5.0f)] private float _sensitive = .5f;
+        [SerializeField, Lesson_10.Range(1.0f, 360f)] private float _rotationSpeed = 90.0f;
+        [SerializeField, Lesson_10.Range(-89.0f, 89.0f)] private float _minVerticalAngle = -30.0f, _maxVerticalAngle = 60.0f;
         [SerializeField] private LayerMask _obstacleMask;
         
         private Vector3 _focusPoint;
